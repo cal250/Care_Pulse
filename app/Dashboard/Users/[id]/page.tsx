@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Userdetails() {
-    const page = ({params}):{params:{id:string}} => {
-        const {id} = params;
+const page = ({params}:{params:{id:string}} ) => {
+  const { id } = params;
   return (
-    <h1>user profile:{id}</h1>
+  
+    <div>User Profile:{id}</div>
   )
 }
 
-export default Userdetails
+export default page
